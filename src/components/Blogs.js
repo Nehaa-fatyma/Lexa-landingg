@@ -2,19 +2,19 @@ import React from "react";
 
 const blogPosts = [
   {
-    title: "Natural Language Processing The AI Frontier",
+    title: "AI in Legal Drafting: From Prompt to Contract",
     image: "images/post-1.jpg",
     link: "blog-single.html",
     delay: "0s",
   },
   {
-    title: "AI in Healthcare Transforming Patient Care",
+    title: "Regional Law Meets AI: Drafting for KSA, UAE & Beyond",
     image: "images/post-2.jpg",
     link: "blog-single.html",
     delay: "0.2s",
   },
   {
-    title: "Unlocking the Power of Predictive Analytics",
+    title: "How SMEs Can Automate Legal Work Without a Lawyer",
     image: "images/post-3.jpg",
     link: "blog-single.html",
     delay: "0.4s",
@@ -34,7 +34,7 @@ const Blog = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Latest tech tips, news, and repair insights
+                Smart legal tips, AI updates, and industry insights.
               </h2>
             </div>
           </div>

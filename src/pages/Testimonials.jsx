@@ -7,44 +7,44 @@ import HowItWorks from '../components/HowItWorks';
 
 const testimonialsData = [
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote:"Lexa has completely changed how we handle contracts. I used to spend hours drafting NDAs—now it's done in minutes, and I’m confident everything’s legally sound.",
         author: "Sophia Reynolds",
-        role: "co. founder",
+        role: "SME Owner - Dubai UAE",
         image: "images/testimonial-image-1.jpg",
         delay: "0s"
     },
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote: "The clause-level AI suggestions and citation features are spot-on. It’s like having a junior associate that works 24/7, without missing regional legal details",
         author: "Jacob Jones",
-        role: "Marketing director",
+        role: "Legal Associate",
         image: "images/testimonial-image-2.jpg",
         delay: "0.2s"
     },
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote: "As someone with no legal background, Lexa makes it incredibly easy to draft employment contracts and compliance docs. It’s intuitive, fast, and accurate.",
         author: "Olivia Bennett",
-        role: "Lead AI Scientist",
+        role: "Startup Founder",
         image: "images/testimonial-image-3.jpg",
         delay: "0.4s"
     },
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote: "Lexa’s multi-jurisdiction support allows our firm to toggle between Gulf countries with ease. It cuts down research time and improves consistency across cases.",
         author: "Liam Mitchell",
-        role: "Machine Learning Engineer",
+        role: "Senior Partner-Law firm",
         image: "images/testimonial-image-4.jpg",
         delay: "0.6s"
     },
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote: "We use Lexa for internal compliance and vendor contracts. The real-time collaboration and e-signing tools save us from endless email chains and delays.",
         author: "Ethan Parker",
-        role: "Data Scientist",
+        role: "In-House Counsel – E-commerce Company",
         image: "images/testimonial-image-5.jpg",
         delay: "0.8s"
     },
     {
-        quote: "Working with was a game-changer for our business. They took the time understand our unique challenges & solutions that boosted our efficiency & the team was knowledgeable, responsive & incredibly easy to work with.!",
+        quote: "Lexa is redefining legal operations in the region. It’s a must-have for firms and SMEs looking to automate routine legal work without compromising accuracy.",
         author: "Ava Thompson",
-        role: "Full Stack Developer",
+        role: "Legal Tech Consultant",
         image: "images/testimonial-image-6.jpg",
         delay: "1s"
     }

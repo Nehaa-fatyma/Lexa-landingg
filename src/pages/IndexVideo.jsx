@@ -11,8 +11,8 @@ import OurProject from '../components/Ourproject';
 import HowItWorks from '../components/HowItWorks';
 import Testimonials from '../components/Testimonials';
 import VHero from '../components/V-Hero';
-import IFaqs from '../components/I-Faqs';
-import IBlogs from '../components/I-Blogs';
+import Faqs from '../components/Faqs';
+import Blogs from '../components/Blogs';
 
 const IndexVed = () => {
     return (
@@ -26,8 +26,8 @@ const IndexVed = () => {
             <OurProject/>
             <HowItWorks/>
             <Testimonials/>
-            <IFaqs/>     
-            <IBlogs/>      
+            <Faqs/>     
+            <Blogs/>      
             <Footer />
         </>
     );

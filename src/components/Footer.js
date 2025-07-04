@@ -9,7 +9,7 @@ const scrollingItems = [
 
 const quickLinks = [
   { label: "Home", url: "index.html" },
-  { label: "About Us", url: "about.html" },
+  { label: "About Us", url: "Aboutus.js" },
   { label: "Services", url: "services.html" },
 ];
 
@@ -26,9 +26,10 @@ const supportLinks = [
 ];
 
 const contactLinks = [
-  { label: "+(00) 123 456 874", url: "tel:+123456874" },
-  { label: "support@domainame.com", url: "mailto:support@domainame.com" },
-  { label: "123 Lorem Street Suite 5B, Ipsum UK" },
+  // { label: "+(00) 123 456 874", url: "tel:+123456874" },
+  { label: "contact@lexa.lawyer", url: "mailto:contact@lexa.lawyer" },
+  { label: "rabeet.ali@lexa.lawyer", url: "mailto:rabeet.ali@lexa.lawyer" },
+  // { label: "123 Lorem Street Suite 5B, Ipsum UK" },
 ];
 
 const socialIcons = [

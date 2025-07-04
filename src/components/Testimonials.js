@@ -7,13 +7,13 @@ const testimonialCounters = [
     icon: "images/icon-testimonial-counter-1.svg",
     number: 200,
     suffix: "+",
-    text: "AI Agency Technology Project Complate",
+    text: "Legal AI Projects Delivered",
   },
   {
     icon: "images/icon-testimonial-counter-2.svg",
     number: 98,
     suffix: "%",
-    text: "Client Satisfaction Rate in Our Agency",
+    text: "Satisfaction from Lawyers & SMEs",
   },
 ];
 
@@ -28,21 +28,21 @@ const clientImages = [
 const testimonials = [
   {
     name: "Sophia Reynolds",
-    role: "Founder",
+    role: "Founder, Tech Startup",
     image: "images/testimonial-image-1.jpg",
-    text: `Working with was a game-changer for our business. They took the time to understand our unique challenges and delivered solutions that boosted our efficiency. The team was knowledgeable, responsive, and incredibly easy to work with!`,
+    text: `As a small business owner, legal drafting always felt intimidating. With Lexa, I created compliant NDAs and contracts in minutes—without hiring a lawyer. The AI understood my business needs and local regulations. It's fast, simple, and incredibly reliable.`,
   },
   {
     name: "Jacob Jones",
-    role: "CEO",
+    role: "Partner, Law Firm",
     image: "images/testimonial-image-2.jpg",
-    text: `Working with was a game-changer for our business. They took the time to understand our unique challenges and delivered solutions that boosted our efficiency. The team was knowledgeable, responsive, and incredibly easy to work with!`,
+    text: `Lexa has transformed how we handle legal research across jurisdictions. I uploaded over 400 pages of case law and received structured summaries and relevant precedents within minutes. The ability to draft and analyze in both Arabic and English is a game-changer for our Gulf-based practice.`,
   },
   {
     name: "Olivia Bennett",
-    role: "Managing Director",
+    role: "Legal Advisor",
     image: "images/testimonial-image-3.jpg",
-    text: `Working with was a game-changer for our business. They took the time to understand our unique challenges and delivered solutions that boosted our efficiency. The team was knowledgeable, responsive, and incredibly easy to work with!`,
+    text: `We needed a solution that could adapt to Pakistan's legal landscape and streamline internal drafting. Lexa not only helped us automate contract generation, but also ensured compliance with local laws. The collaboration and version control features have made team workflows much smoother`,
   },
 ];
 
@@ -79,10 +79,10 @@ const Testimonials = () => {
             <div className="testimonial-content-box">
               <div className="section-title">
                 <h2 className="wow fadeInUp" data-cursor="-opaque">
-                  Impressive stats backing our <span>AI solutions</span>
+                Real Impact Across <span>Law & Business</span>
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay="0.2s">
-                  We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence and machine learning solutions to build AI-powered tools that solve real-world problems.
+                Lexa is reshaping how legal work gets done — trusted by SMEs and legal professionals across the Middle East. From instant drafting to multilingual legal support, our AI-powered platform delivers real results where it matters most.
                 </p>
               </div>
 

@@ -9,14 +9,14 @@ const brandItems = [
     image: brandImage1,
     title: "AI Solutions",
     description:
-      "Working with was a game-changer for our business. They took the time understand our unique challenges and solutions that boosted our efficiency and The team was k",
+      "Lexa completely changed how we handle legal documents. I can now draft NDAs and contracts in minutes without hiring a lawyer. It saved us time, legal fees, and gave me peace of mind knowing everything is compliant with local laws.",
     delay: "0.4s",
   },
   {
     image: brandImage2,
     title: "Vision Pro",
     description:
-      "Working with was a game-changer for our business. They took the time understand our unique challenges and solutions that boosted our efficiency and The team was k",
+      "As a regional law firm, Lexa helped us automate case research and improve turnaround time. The multi-jurisdiction support and AI-generated case summaries are incredibly accurate. It’s like having a junior associate that never sleeps",
     delay: "0.6s",
   },
 ];
@@ -35,7 +35,7 @@ const OurBrands = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Partnering with forward <span>brands worldwide</span>
+                Trusted by Legal Teams and Businesses <span>Across the Middle East</span>
               </h2>
             </div>
           </div>

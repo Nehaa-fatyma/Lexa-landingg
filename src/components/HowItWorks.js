@@ -4,41 +4,41 @@ const workSteps = [
   {
     step: "Step 01",
     icon: "images/icon-work-step-1.svg",
-    title: "Discovery & Consultation",
+    title: "Needs Assessment",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "We understand whether you're a business drafting contracts or a lawyer handling legal analysis, and identify the tools you need—localized, automated, or collaborative.",
     delay: "0s",
   },
   {
     step: "Step 02",
     icon: "images/icon-work-step-2.svg",
-    title: "Strategy & Planning",
+    title: "AI-Powered Drafting",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Start drafting instantly using AI-guided forms or free-text prompts. Lexa supports clause suggestions, legal formatting, and even voice-to-text.",
     delay: "0.2s",
   },
   {
     step: "Step 03",
     icon: "images/icon-work-step-3.svg",
-    title: "Model Development",
+    title: "Review & Customize",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Preview your documents with real-time editing, insert case law, toggle jurisdictions, and switch languages like Arabic, Urdu, or English.",
     delay: "0.4s",
   },
   {
     step: "Step 04",
     icon: "images/icon-work-step-4.svg",
-    title: "Outgoing Support",
+    title: " Finalize & Share",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Export as PDF, get e-signatures, or collaborate live with colleagues or clients—secure, compliant, and ready to file or send.",
     delay: "0.6s",
   },
 ];
 
 const extraSteps = [
-  "Deployment & Integration",
-  "Monitoring & Optimization",
-  "Design Smart Solutions",
+  "Schedule a Demo",
+  "Try AI Drafting",
+  "Localized Legal Help",
 ];
 
 const HowItWorks = () => {
@@ -54,7 +54,7 @@ const HowItWorks = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Step-by-step approach to <span>AI innovation</span>
+                Legal Drafting, <span>Made Effortless</span>
               </h2>
             </div>
           </div>

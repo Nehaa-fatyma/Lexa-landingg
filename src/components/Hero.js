@@ -22,13 +22,14 @@ const Hero = () => {
         <div className="row section-row align-items-center">
           <div className="col-lg-6">
             <div className="section-title">
-              <h3 className="wow fadeInUp">Welcome to nextmind</h3>
+              <h3 className="wow fadeInUp">Welcome to Lexa Lawyer</h3>
               <h1
                 className="wow fadeInUp"
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
+                // Handle contracts, compliance, and documentation like a pro—no law degree required.”
               >
-                Designing smarter tomorrows with <span>AI today!</span>
+                Handle Contracts, Compliance & Documentation like a PRO! <span > no law degree required.</span>
               </h1>
             </div>
           </div>
@@ -37,9 +38,10 @@ const Hero = () => {
             <div className="hero-section-content">
               <div className="hero-content wow fadeInUp">
                 <p>
-                  We craft intelligent, scalable AI solutions that enable
-                  businesses to innovate, adapt, and lead in a rapidly evolving
-                  world.
+                Running a business is hard enough without dealing with legal complexity.  
+               <strong> LEXA</strong> simplifies legal work for SMEs, 
+                helping you draft contracts, stay compliant, and protect your 
+                business with ease—even without prior legal knowledge.
                 </p>
               </div>
 

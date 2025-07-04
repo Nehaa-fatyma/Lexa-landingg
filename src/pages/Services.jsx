@@ -5,10 +5,12 @@ import Preloader from '../components/A-preloader';
 import APageHeader from '../components/A-pageheader';
 import SPageservices from '../components/S-pageservices'; 
 import SWorks from '../components/S-work';
-import OurFeatures from '../components/A-features';
+import OurFeatures from '../components/OurFeatures';
 import Faqs from '../components/Faqs';
-import ATestimonials from '../components/A-testimonials';
+import ATestimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
+import HowItWorks from '../components/HowItWorks';
+import Services from '../components/Services';
 
 const About = () => {
   const location = useLocation();
@@ -24,8 +26,8 @@ const About = () => {
       <>
       <Preloader/>
       <APageHeader title="Our" subtitle="Services" />
-      <SPageservices/>
-      <SWorks/>
+      <Services/>
+      <HowItWorks/>
       <OurFeatures/>
       <Faqs/>
       <ATestimonials/>

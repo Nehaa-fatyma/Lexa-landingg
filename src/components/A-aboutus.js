@@ -15,9 +15,8 @@ const About = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Driven by innovation, powered by AI we build intelligent
-                solutions that transform industries, empower businesses, and
-                shape the future.
+                Lexa is the Middle East’s first AI legal assistant for SMEs and lawyers, helping you draft faster, 
+                collaborate better, and stay accurate — <span>tailored to your local legal language and system. </span>
               </h2>
             </div>
             {/* Section Title End */}

@@ -3,34 +3,34 @@ import React from "react";
 const accordionItems = [
   {
     id: 1,
-    title: "Driven by Data, Inspired by Impact",
+    title: "Our Vision",
     icon: "images/icon-who-we-are-1.svg",
-    body: `We design intelligent systems that learn from data and automate complex processes—enhancing efficiency, accuracy, and scalability across industries. Our expert team leverages cutting-edge machine learning models.`,
+    body: `Lexa empowers SMEs and legal professionals with AI tools to simplify legal drafting, research, and compliance. Our goal is to make legal work fast, accurate, and accessible — without the need for a law degree.`,
     show: true,
     delay: "0s",
   },
   {
     id: 2,
-    title: "Experts in Machine Learning & Automation",
+    title: "What We Offer",
     icon: "images/icon-who-we-are-2.svg",
-    body: `We design intelligent systems that learn from data and automate complex processes—enhancing efficiency, accuracy, and scalability across industries. Our expert team leverages cutting-edge machine learning models.`,
+    body: `Lexa lets SMEs draft contracts with ease and helps lawyers work faster with AI-powered research, real-time collaboration, and smart legal tools — no complexity, just results.`,
     show: false,
     delay: "0.2s",
   },
   {
     id: 3,
-    title: "Cutting-Edge Research & Development",
+    title: "Why Lexa",
     icon: "images/icon-who-we-are-3.svg",
-    body: `We design intelligent systems that learn from data and automate complex processes—enhancing efficiency, accuracy, and scalability across industries. Our expert team leverages cutting-edge machine learning models.`,
+    body: `Built specifically for the Middle East, Lexa understands regional laws, languages, and formatting. From clause suggestions to local legal references, we deliver accuracy, speed, and scale — all in one platform.`,
     show: false,
     delay: "0.4s",
   },
 ];
 
 const counters = [
-  { number: 150, symbol: "+", label: "AI Projects Delivered" },
+  { number: 150, symbol: "+", label: "Legal AI Projects" },
   { number: 20, symbol: "+", label: "Industries Served" },
-  { number: 98, symbol: "%", label: "Client Satisfied Rate" },
+  { number: 98, symbol: "%", label: "Client Satisfaction" },
 ];
 
 const WhoWeAre = () => {
@@ -49,9 +49,8 @@ const WhoWeAre = () => {
                 >
                   <h2 className="accordion-header" id={`whoheading${item.id}`}>
                     <button
-                      className={`accordion-button ${
-                        !item.show ? "collapsed" : ""
-                      }`}
+                      className={`accordion-button ${!item.show ? "collapsed" : ""
+                        }`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target={`#whocollapse${item.id}`}
@@ -63,9 +62,8 @@ const WhoWeAre = () => {
                   </h2>
                   <div
                     id={`whocollapse${item.id}`}
-                    className={`accordion-collapse collapse${
-                      item.show ? " show" : ""
-                    }`}
+                    className={`accordion-collapse collapse${item.show ? " show" : ""
+                      }`}
                     aria-labelledby={`whoheading${item.id}`}
                     data-bs-parent="#whoaccordion"
                   >
@@ -88,14 +86,12 @@ const WhoWeAre = () => {
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  Expert deliver AI solution <span>with real impact</span>
+                  Delivering AI-Powered Legal Solutions <span>with real impact</span>
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay="0.4s">
-                  We are a forward-thinking AI agency specializing in
-                  cutting-edge artificial intelligence and machine learning
-                  solutions. Whether you're a startup or a global enterprise,
-                  our mission is simple: build AI-powered tools that solve
-                  real-world problems.
+                  We’re a region-first legal-tech company building intelligent tools for SMEs and lawyers. 
+                  From drafting contracts to analyzing case law, Lexa simplifies complex legal work using smart, 
+                  localized AI.
                 </p>
               </div>
 

@@ -23,9 +23,9 @@ const ServiceSolution = () => {
 
   return (
     <div className="service-solution-box">
-      <h2 className="wow fadeInUp" data-wow-delay="0.4s">What you'll get <span>with this service</span></h2>
+      <h2 className="wow fadeInUp" data-wow-delay="0.4s">What you'll get <span> with Lexa</span></h2>
       <p className="wow fadeInUp" data-wow-delay="0.6s">
-        Our service is designed to provide you with everything you need to achieve meaningful results through AI-driven solutions. From in-depth consultation and tailored strategies to seamless implementation and ongoing support
+      Our platform is designed to deliver everything you need to simplify and accelerate legal work—through smart, localized, AI-driven solutions. From tailored onboarding to advanced drafting tools and continuous support, Lexa empowers you every step of the way.
       </p>
 
       <div className="service-solution-list">

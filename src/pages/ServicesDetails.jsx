@@ -18,11 +18,11 @@ import serviceSingleImg from '../images/service-single-img.jpg';
 
 const ServiceSidebar = () => {
   const serviceCategories = [
-    "AI Development",
-    "Machine Learning",
-    "Predictive Analytics",
-    "Chatbot Solutions",
-    "Model Training"
+    "AI-Powered Legal Drafting",
+    "Multilingual Legal Automation",
+    "Smart Contract Generation",
+    "Legal Research & Case Analysis",
+    "Region-Specific Compliance Tools"
   ];
 
   return (
@@ -53,15 +53,15 @@ const ServiceSidebar = () => {
         </div>
 
         <div className="sidebar-cta-contact">
-          <h3>Need help with AI?</h3>
+          <h3>Need help ?</h3>
           <ul>
             <li>
-              <img src={`${process.env.PUBLIC_URL}/images/icon-phone-gradient.svg`} alt="" />
-              <a href="tel:123456789">+123 456 789</a>
+              <img src={`${process.env.PUBLIC_URL}/images/icon-mail-gradient.svg`} alt="" />
+              <a href="mailto:info@domainname.com">contact@lexa.lawyer</a>
             </li>
             <li>
               <img src={`${process.env.PUBLIC_URL}/images/icon-mail-gradient.svg`} alt="" />
-              <a href="mailto:info@domainname.com">info@domainname.com</a>
+              <a href="mailto:info@domainname.com">rabeet.ali@lexa.lawyer</a>
             </li>
           </ul>
         </div>
@@ -74,14 +74,14 @@ const ServiceSolution = () => {
   const solutions = [
     {
       icon: "icon-service-solution-1.svg",
-      title: "Customized AI Solutions",
-      description: "We analyze your unique business needs to develop machine learning models and AI systems tailored specifically for your goals—ensuring maximum relevance, accuracy, and efficiency.",
+      title: "Smart Legal Drafting Tools",
+      description: "We provide intuitive, AI-powered drafting features that let you create NDAs, contracts, and legal documents quickly—no legal background required. Everything is optimized for your region and legal language.",
       delay: "0.8s"
     },
     {
       icon: "icon-service-solution-2.svg",
-      title: "End-to-End Support",
-      description: "We analyze your unique business needs to develop machine learning models and AI systems tailored specifically for your goals—ensuring maximum relevance, accuracy, and efficiency.",
+      title: "Ongoing Support & Updates",
+      description: "We continuously update Lexa with new templates, smarter AI suggestions, and region-specific legal data — ensuring you always stay current, compliant, and productive.",
       delay: "1s"
     }
   ];
@@ -93,9 +93,9 @@ const ServiceSolution = () => {
 
   return (
     <div className="service-solution-box">
-      <h2 className="wow fadeInUp" data-wow-delay="0.4s">What you'll get <span>with this service</span></h2>
+      <h2 className="wow fadeInUp" data-wow-delay="0.4s">What you'll get <span>with Lexa</span></h2>
       <p className="wow fadeInUp" data-wow-delay="0.6s">
-        Our service is designed to provide you with everything you need to achieve meaningful results through AI-driven solutions. From in-depth consultation and tailored strategies to seamless implementation and ongoing support
+      Our platform is designed to deliver everything you need to simplify and accelerate legal work—through smart, localized, AI-driven solutions. From tailored onboarding to advanced drafting tools and continuous support, Lexa empowers you every step of the way.
       </p>
 
       <div className="service-solution-list">
@@ -125,7 +125,7 @@ const ServiceSolution = () => {
             </div>
             <div className="solution-counter-body">
               <ul>
-                <li>Smart Deployment & Integration</li>
+                <li>Documents Auto-Drafted</li>
               </ul>
             </div>
           </div>
@@ -147,7 +147,7 @@ const ServiceResult = () => {
       <div className="service-result-content">
         <h2 className="wow fadeInUp">Delivering results <span>that matter</span></h2>
         <p className="wow fadeInUp" data-wow-delay="0.2s">
-          Our service is designed to provide you with everything you need to achieve meaningful results through AI-driven solutions.
+        Lexa is built to simplify legal drafting, streamline workflows, and help you stay compliant—without the legal complexity.
         </p>
         
         <div className="service-result-item wow fadeInUp" data-wow-delay="0.4s">
@@ -155,8 +155,8 @@ const ServiceResult = () => {
             <img src={`${process.env.PUBLIC_URL}/images/icon-service-solution-2.svg`} alt="" />
           </div>
           <div className="service-result-item-content">
-            <h3>End-to-End Support</h3>
-            <p>We analyze your unique business needs to develop machine learning models and AI systems tailored</p>
+            <h3>End-to-End Legal AI Support</h3>
+            <p>From onboarding to document automation, Lexa is designed around your legal workflow. We help you draft smarter, collaborate faster, and stay legally accurate across regions and languages.</p>
           </div>
         </div>
       </div>
@@ -169,13 +169,13 @@ const ServiceTools = () => {
     <div className="service-tools-box">
       <h2 className="wow fadeInUp">Tools technologies <span>we use</span></h2>
       <p className="wow fadeInUp" data-wow-delay="0.2s">
-        Our service is designed to provide you with everything you need to achieve meaningful results through AI-driven solutions. From in-depth consultation and tailored strategies to seamless implementation and ongoing support
+      Lexa is powered by advanced AI, built specifically for the legal world. Our platform combines natural language processing, machine learning, and legal domain expertise to deliver faster, smarter, and regionally accurate drafting and research tools.
       </p>
       
       <div className="service-tool-content-box">
         <div className="service-tool-content">
           <p className="wow fadeInUp" data-wow-delay="0.4s">
-            Harnessing Advanced Machine Learning to Drive Sustainable Business Growth and Innovation, Empowering Data-Driven Decisions for Future Success
+          We support businesses and law firms from consultation to deployment — ensuring smooth integration with your workflows and full legal compliance.
           </p>
           
           <div className="service-tool-counter-info">
@@ -184,10 +184,10 @@ const ServiceTools = () => {
               <p>We have 5+ years of working experience.</p>
             </div>
             <div className="service-tool-info wow fadeInUp" data-wow-delay="0.6s">
-              <p>Our approach focuses on delivering end-to-end AI solutions that optimize.</p>
+              <p>We support businesses and law firms from consultation to deployment—ensuring smooth integration with your workflows and full legal compliance.</p>
               <ul>
-                <li>Craft Innovative Solutions</li>
-                <li>Develop Intelligent Solutions</li>
+                <li>Automate Legal Drafting</li>
+                <li>Empower Smart Legal Teams</li>
               </ul>
             </div>
           </div>
@@ -207,29 +207,29 @@ const ServiceFAQs = () => {
   const faqs = [
     {
       id: 1,
-      question: "What industries can benefit from AI solutions?",
-      answer: "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times."
+      question: "What types of businesses can benefit from Lexa?",
+      answer: "Lexa is built for both SMEs and law firms. Whether you're managing contracts or conducting complex legal research, our AI tools streamline your legal processes—no matter your size or sector."
     },
     {
       id: 2,
-      question: "How do you customize AI solutions for my needs?",
-      answer: "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      question: "How does Lexa adapt to different legal systems?",
+      answer: "Lexa supports region-specific legal drafting and citations across KSA, UAE, Pakistan, Qatar, and more. Our AI adjusts to your selected jurisdiction and language, ensuring local legal compliance.",
       isOpen: true
     },
     {
       id: 3,
-      question: "What kind of support do you provide post-deployment?",
-      answer: "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times."
+      question: "What kind of support do you offer after deployment?",
+      answer: "We offer complete onboarding, continuous updates, template improvements, and responsive support. Our team ensures Lexa evolves with your legal needs over time."
     },
     {
       id: 4,
-      question: "How secure is the AI technology you use?",
-      answer: "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times."
+      question: "How secure is my legal data on Lexa?",
+      answer: "Lexa prioritizes data privacy and security. All documents and user data are encrypted and stored on secure servers, following regional compliance and best practices.."
     },
     {
       id: 5,
-      question: "How long does it take to see results?",
-      answer: "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times."
+      question: "When can I expect to see results with Lexa?",
+      answer: "Most users experience a productivity boost immediately—drafting time drops from hours to minutes. ROI grows over time as Lexa learns from your inputs and usage."
     }
   ];
 
@@ -273,7 +273,7 @@ const ServiceFAQs = () => {
 const ServicesDetails = () => {
   return (
     <>
-      <PageHeader title="Machine" subtitle="learning" />
+      <PageHeader title="Service" subtitle="Details" />
       
       <div className="page-service-single">
         <div className="container">
@@ -294,10 +294,11 @@ const ServicesDetails = () => {
 
                 <div className="service-entry">
                   <p className="wow fadeInUp">
-                    Unlock the full potential of your data with our advanced Machine Learning services. We design and deploy intelligent models that learn from your data, automate decision-making, and continuously improve outcomes. Whether it's predictive analytics, recommendation systems, or anomaly detection, our tailored solutions help businesses stay ahead in a rapidly evolving digital landscape.
+                  Unlock the full potential of legal automation with our AI-driven solutions.
+                  Lexa transforms how businesses and legal professionals draft, review, and collaborate on documents by combining advanced machine learning with deep legal intelligence. From clause suggestions to multilingual drafting and jurisdiction-aware research, our tools streamline legal workflows and reduce manual effort.
                   </p>
                   <p className="wow fadeInUp" data-wow-delay="0.2s">
-                    Our team of ML experts collaborates closely with you to understand your specific goals and challenges. From data preprocessing and model training to deployment and ongoing optimization, we ensure a seamless and scalable integration of Machine Learning into your existing systems—driving smarter operations and measurable results.
+                  Our team works closely with law firms and SMEs to understand their region-specific needs. From model training on legal data to deployment and optimization, we deliver seamless integration into your daily operations—helping you draft faster, stay compliant, and make smarter legal decisions with confidence.
                   </p>
 
                   <ServiceSolution />

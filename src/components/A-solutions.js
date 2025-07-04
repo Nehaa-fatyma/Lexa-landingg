@@ -30,13 +30,13 @@ const OurSolutions = () => {
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  A collaborative approach to{" "}
-                  <span>intelligent solutions</span>
+                  Smarter Drafting Through {" "}
+                  <span>Collaboration</span>
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay="0.4s">
-                  We believe that the most powerful AI solutions are born from
-                  collaboration. By working closely with our clients, we align
-                  cutting-edge technology.
+                We believe the best legal technology is built alongside those who use it. 
+                That’s why Lexa is developed with input from regional lawyers and 
+                business owners — to ensure our AI meets real-world legal needs with speed, accuracy, and trust.
                 </p>
               </div>
 
@@ -61,10 +61,10 @@ const OurSolutions = () => {
                     <img src={iconSolution1} alt="AI Development Icon" />
                   </div>
                   <div className="solution-item-content">
-                    <h3>AI Development</h3>
+                    <h3>AI-Powered Legal Drafting</h3>
                     <p>
-                      We are a forward-thinking AI agency specializing in
-                      cutting-edge artificial intelligence.
+                    Generate contracts, agreements, and legal clauses instantly using Lexa’s smart drafting tools. 
+                    Designed for accuracy, speed, and compliance—no legal background required.
                     </p>
                   </div>
                 </div>
@@ -75,10 +75,10 @@ const OurSolutions = () => {
                     <img src={iconSolution2} alt="Machine Learning Icon" />
                   </div>
                   <div className="solution-item-content">
-                    <h3>Machine Learning</h3>
+                    <h3>Legal Machine Learning</h3>
                     <p>
-                      We are a forward-thinking AI agency specializing in
-                      cutting-edge artificial intelligence.
+                    Lexa uses advanced ML to understand legal language, extract case insights, 
+                    and deliver tailored suggestions—built for regional laws and multilingual drafting.
                     </p>
                   </div>
                 </div>

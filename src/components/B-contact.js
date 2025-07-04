@@ -14,8 +14,8 @@ const contactInfo = [
     icon: "images/icon-mail.svg",
     title: "Make a quote",
     lines: [
-      { type: "email", value: "info@domainname.com" },
-      { type: "email", value: "support@domain.com" },
+      { type: "email", value: "rabeet.ali@lexa.lawyer" },
+      { type: "email", value: "contact@lexa.lawyer" },
     ],
     delay: "0.2s",
   },
@@ -59,7 +59,9 @@ const ContactUs = () => {
                         <p key={idx}>
                           <a href={`tel:${line.value}`}>{line.label}</a>
                         </p>
-                      ) : (
+                      ) 
+                      : 
+                      (
                         <p key={idx}>
                           <a href={`mailto:${line.value}`}>{line.value}</a>
                         </p>

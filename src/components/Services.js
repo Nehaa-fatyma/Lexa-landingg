@@ -2,34 +2,65 @@ import React from "react";
 
 const services = [
   {
-    title: "AI Development",
+    title: "Smart Drafting (For SMEs)",
     icon: "images/icon-service-1.svg",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Easily create NDAs, contracts, and leases using guided legal forms. No legal knowledge required.",
     link: "service-single.html",
     delay: "0s",
   },
   {
-    title: "Machine Learning",
+    title: "AI Guidance (For SMEs)",
     icon: "images/icon-service-2.svg",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Lexa walks you through legal drafting step by step. Ideal for SMEs with no legal background.",
     link: "service-single.html",
     delay: "0.2s",
   },
   {
-    title: "Predictive Analytics",
+    title: "Auto Templates (For SMEs)",
     icon: "images/icon-service-3.svg",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Fill in your company info once—Lexa fills the rest. Save time on every legal document.",
     link: "service-single.html",
     delay: "0.4s",
   },
   {
-    title: "Chatbot Solutions",
+    title: "Built-in Signing (For SMEs & Lawyers)",
     icon: "images/icon-service-4.svg",
     description:
-      "We are a forward-thinking AI agency specializing in cutting-edge artificial intelligence.",
+      "Sign documents digitally with one click. Secure sharing with teams and clients..",
+    link: "service-single.html",
+    delay: "0.6s",
+  },{
+    title: "Legal Drafting (For Lawyers)",
+    icon: "images/icon-service-1.svg",
+    description:
+      "Insert citations and clauses instantly using AI. Perfect for fast, accurate legal writing.",
+    link: "service-single.html",
+    delay: "0s",
+  },
+  {
+    title: "Law Comparison (For Lawyers)",
+    icon: "images/icon-service-2.svg",
+    description:
+      "Toggle between KSA, UAE, UK, US, and more. Get region-specific legal insights.",
+    link: "service-single.html",
+    delay: "0.2s",
+  },
+  {
+    title: "Live Collaboration (For Lawyers)",
+    icon: "images/icon-service-3.svg",
+    description:
+      "Draft and edit documents together in real-time. Use comments and version control easily.",
+    link: "service-single.html",
+    delay: "0.4s",
+  },
+  {
+    title: "Case Analysis (For Lawyers)",
+    icon: "images/icon-service-4.svg",
+    description:
+      "Upload judgments for AI summaries and mapping. Get keywords and arguments extracted.",
     link: "service-single.html",
     delay: "0.6s",
   },
@@ -49,7 +80,7 @@ const Services = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                AI-driven design services for future <span>innovations</span>
+                AI-powered legal drafting and automation services tailored for modern law and<span> regional needs. </span>
               </h2>
             </div>
           </div>

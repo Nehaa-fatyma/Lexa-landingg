@@ -16,7 +16,7 @@ const About = () => (
       <div className="section-title section-title-center">
         <h3>About Us</h3>
         <h2>
-          Driven by innovation, powered by AI we build intelligent solutions that transform industries, empower businesses, and shape the future.
+        Lexa is the Middle East’s first AI legal assistant for SMEs and lawyers, helping you draft faster, collaborate better, and stay accurate — <span>tailored to your local legal language and system. </span>
         </h2>
       </div>
       

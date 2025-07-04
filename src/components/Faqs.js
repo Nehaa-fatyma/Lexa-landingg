@@ -3,41 +3,41 @@ import React from "react";
 const faqs = [
   {
     id: 1,
-    question: "What industries can benefit from AI solutions?",
+    question: "Who can use Lexa—lawyers or business owners?",
     answer:
-      "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      "Lexa is built for both. SMEs can draft legal documents without any prior legal knowledge, while lawyers can perform advanced legal research, multi-jurisdictional comparisons, and case law analysis.",
     delay: "0s",
     isOpen: false,
   },
   {
     id: 2,
-    question: "How do you customize AI solutions for my needs?",
+    question: "Is Lexa adapted for laws in my country?",
     answer:
-      "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      "Yes. Lexa supports country-specific drafting for regions like KSA, UAE, Qatar, and Pakistan, offering localized legal templates, citations, and multilingual support in Arabic, Urdu, and English.",
     delay: "0.2s",
     isOpen: true,
   },
   {
     id: 3,
-    question: "What kind of support do you provide post-deployment?",
+    question: "Do I need legal training to use Lexa?",
     answer:
-      "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      "Not at all. Lexa’s AI guides users step-by-step using smart forms and pre-filled templates. It’s designed so anyone—regardless of legal background—can create accurate, professional documents.",
     delay: "0.4s",
     isOpen: false,
   },
   {
     id: 4,
-    question: "How secure is the AI technology you use?",
+    question: "Can I collaborate with others on legal drafts?",
     answer:
-      "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      "Absolutely. Lexa allows real-time collaboration with internal teams or external clients. Commenting, version control, and secure sharing make teamwork seamless and secure.",
     delay: "0.6s",
     isOpen: false,
   },
   {
     id: 5,
-    question: "How long does it take to see results?",
+    question: "What kind of support do you offer after setup?",
     answer:
-      "We monitor system performance in real-time, identifying and addressing any issues to ensure that your AI solution runs smoothly at all times.",
+      "We offer continuous support including onboarding, legal template updates, and AI optimization. Our team monitors system performance and ensures Lexa evolves with your needs.",
     delay: "0.8s",
     isOpen: false,
   },

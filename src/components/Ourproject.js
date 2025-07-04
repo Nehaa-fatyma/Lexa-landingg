@@ -2,17 +2,17 @@ import React from "react";
 
 const projects = [
   {
-    title: "Automated Legal Document Review",
+    title: "Smart Legal Document Builder",
     description:
-      "Leverages AI and natural language processing to quickly analyze, classify, and extract key information from legal documents—saving time, reducing errors, and improving compliance.",
+      "Empowers SMEs to draft NDAs, employment contracts, and lease agreements using intuitive, AI-driven forms—no legal experience required. Saves time, ensures compliance, and eliminates formatting hassle.",
     image: "images/project-1.jpg",
     delay: "0s",
     link: "project-single.html",
   },
   {
-    title: "Real-Time Financial Risk Detection",
+    title: " AI-Powered Case Law Analysis",
     description:
-      "Leverages AI and natural language processing to quickly analyze, classify, and extract key information from legal documents—saving time, reducing errors, and improving compliance.",
+      "Enables lawyers to upload judgments and receive instant summaries, keyword extraction, and argument mapping—accelerating research and enhancing accuracy across jurisdictions.",
     image: "images/project-2.jpg",
     delay: "0.2s",
     link: "project-single.html",
@@ -32,7 +32,7 @@ const Projects = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Showcasing our AI solutions & <span>success project</span>
+                Showcasing real-world impact of our AI-powered<span> legal solutions</span>
               </h2>
             </div>
           </div>

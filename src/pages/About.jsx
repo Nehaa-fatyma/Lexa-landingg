@@ -12,8 +12,9 @@ import ASolutions from '../components/A-solutions';
 import AOurbrands from '../components/A-ourbrands';
 import AOurteams from '../components/A-ourteams';
 import Faqs from '../components/Faqs';
-import ATestimonials from '../components/A-testimonials';
 import Footer from '../components/Footer';
+import Features from '../components/OurFeatures';
+import Testimonials from '../components/Testimonials';
 
 const About = () => {
     const location = useLocation();
@@ -34,13 +35,13 @@ const About = () => {
       <APageHeader title="About" subtitle="us" />
       <AAbout />
       <AOurApproach />
-      <AFeatures/>
+      <Features/>
       <WhoWeAre/>
       <ASolutions/>
       <AOurbrands/>
       <AOurteams/>
       <Faqs/>
-      <ATestimonials/>
+      <Testimonials/>
       <Footer/>
        </>
   );

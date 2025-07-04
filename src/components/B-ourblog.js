@@ -2,41 +2,40 @@ import React from "react";
 
 const blogPosts = [
   {
-    title: "Natural Language Processing The AI Frontier",
+    title: "AI in Legal Drafting: From Prompt to Contract",
     image: "images/post-1.jpg",
     link: "blog-single.html",
     delay: "0s",
   },
   {
-    title: "AI in Healthcare Transforming Patient Care",
+    title: "Regional Law Meets AI: Drafting for KSA, UAE & Beyond",
     image: "images/post-2.jpg",
     link: "blog-single.html",
     delay: "0.2s",
   },
   {
-    title: "Unlocking the Power of Predictive Analytics",
+    title: "How SMEs Can Automate Legal Work Without a Lawyer",
     image: "images/post-3.jpg",
     link: "blog-single.html",
     delay: "0.4s",
-  },
-  {
-    title: "Unlocking the Power of Natural Language",
+  },{
+    title: "Multilingual Legal Drafting: Arabic, Urdu & English Made Easy",
     image: "images/post-4.jpg",
     link: "blog-single.html",
     delay: "0.6s",
   },
   {
-    title: "Pioneering AI  Natural Language Understanding",
+    title: "Clause-Level AI Suggestions: Smarter, Faster Legal Writing",
     image: "images/post-5.jpg",
     link: "blog-single.html",
     delay: "0.8s",
   },
   {
-    title: "Revolutionizing Communication with NLP in AI",
+    title: "Case Law Automation: Analyze Judgments in Minutes",
     image: "images/post-6.jpg",
     link: "blog-single.html",
     delay: "1s",
-  },
+  },  
 ];
 
 const BlogPage = () => {

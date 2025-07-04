@@ -21,26 +21,26 @@ const HeroSection = () => {
             <div className="hero-content">
               {/* Section Title */}
               <div className="section-title">
-                <h3 className="wow fadeInUp">Welcome to nextmind</h3>
+                <h3 className="wow fadeInUp">Welcome to Lexa</h3>
                 <h1
                   className="wow fadeInUp"
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  Designing smarter tomorrows with <span>AI today!</span>
+                  Empowering Legal Innovation Through<span> Intelligent AI!</span>
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.4s">
-                  We design intelligent, scalable AI solutions that empower
-                  businesses to innovate and adapt. Stay ahead, lead the
-                  change, and thrive in a rapidly evolving world.
+                We design intelligent, region-aware AI solutions that simplify legal drafting, enhance research, and 
+                ensure compliance—so businesses and law firms can work faster, smarter, and with total confidence.
                 </p>
               </div>
 
               {/* Hero Bullet List */}
               <div className="hero-list wow fadeInUp" data-wow-delay="0.6s">
                 <ul>
-                  <li>Empowering the Future with Today's AI</li>
-                  <li>The Future of AI, Now Within Reach</li>
+                <li>Transform the future of legal work—today</li>
+                  <li>Stay compliant</li>
+                  <li>Lead with innovation</li>
                 </ul>
               </div>
 

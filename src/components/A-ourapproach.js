@@ -6,21 +6,21 @@ const approachItems = [
     icon: process.env.PUBLIC_URL + "/images/icon-mission.svg",
     title: "Our mission",
     description:
-      "Our mission is to deliver cutting-edge AI solutions that empower businesses to automate, innovate, and grow. We aim to bridge the gap between technology.",
+      "Our mission is to empower businesses and legal teams with AI tools that make legal work faster, smarter, and more accessible — no law degree required. We aim to localize innovation and simplify complexity in legal processes.",
     delay: "0s",
   },
   {
     icon: process.env.PUBLIC_URL + "/images/icon-vision.svg",
     title: "Our vision",
     description:
-      "Our vision is to deliver cutting-edge AI solutions that empower businesses to automate, innovate, and grow. We aim to bridge the gap between technology.",
+      "Our vision is to become the leading AI legal assistant for the Middle East — bridging the gap between technology and legal expertise, and enabling anyone to draft, review, and collaborate with legal accuracy.",
     delay: "0.2s",
   },
   {
     icon: process.env.PUBLIC_URL + "/images/icon-goal.svg",
     title: "Our goal",
     description:
-      "Our goal is to deliver cutting-edge AI solutions that empower businesses to automate, innovate, and grow. We aim to bridge the gap between technology.",
+      "We aim to deliver reliable, region-aware legal solutions that remove barriers, save time, and scale with your needs — from startups to law firms.",
     delay: "0.4s",
   },
 ];
@@ -41,8 +41,8 @@ const OurApproach = () => {
                   data-wow-delay="0.2s"
                   data-cursor="-opaque"
                 >
-                  Shaping Tomorrow with{" "}
-                  <span>Intelligent AI solutions</span>
+                  Shaping the Future of Legal Work with {" "}
+                  <span>Smart, Regional AI</span>
                 </h2>
               </div>
 

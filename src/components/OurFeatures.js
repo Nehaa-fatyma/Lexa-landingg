@@ -13,7 +13,7 @@ const Features = () => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                Unlock efficiency through <span>intelligent AI features</span>
+                Revolutionize legal drafting through smart, scalable & <span> Localized AI features</span>
               </h2>
             </div>
           </div>
@@ -25,9 +25,8 @@ const Features = () => {
                 data-wow-delay="0.2s"
               >
                 <p>
-                  Explore our powerful AI-driven features designed to enhance
-                  decision-making and accelerate innovation across your
-                  business.
+                Explore AI-powered legal drafting features built to boost accuracy, adapt to your region, 
+                and scale with your business.
                 </p>
               </div>
               <div className="section-btn wow fadeInUp" data-wow-delay="0.4s">
@@ -44,13 +43,14 @@ const Features = () => {
           <div className="col-lg-4">
             <div className="feature-item-box">
               <div className="feature-item wow fadeInUp" data-wow-delay="0.2s">
-                <h3>Advanced Machine Learning for Business Growth</h3>
+                <h3>Key Productivity Features</h3>
                 <ul>
-                  <li>Automation</li>
-                  <li>Security</li>
-                  <li>Integration</li>
-                  <li>Optimization</li>
-                  <li>Scalability</li>
+                  <li>Ask AI Anywhere</li>
+                  <li>PDF Export</li>
+                  <li>MS Word Shortcuts</li>
+                  <li>Spell & Grammar Check</li>
+                  <li>Cloud Collaboration</li>
+                  <li>OCR Reading</li>
                 </ul>
               </div>
               <div
@@ -61,7 +61,7 @@ const Features = () => {
                   <img src="images/icon-feature-1.svg" alt="Feature Icon" />
                 </div>
                 <div className="feature-content-title">
-                  <h3>Advanced Machine Learning Model Development</h3>
+                  <h3>Smart Legal Document Automation</h3>
                 </div>
               </div>
             </div>
@@ -71,10 +71,11 @@ const Features = () => {
           <div className="col-lg-4">
             <div className="feature-image-box wow fadeInUp" data-wow-delay="0.2s">
               <div className="feature-image-content">
-                <h3>AI-Driven Innovation Competitive Advantage</h3>
+                <h3>Localized for the Middle East</h3>
                 <ul>
-                  <li>Edge AI for Smarter Devices</li>
-                  <li>Secure and Ethical AI Practices</li>
+                  <li>Country-Based Drafting – KSA, UAE, Qatar, Pakistan & more</li>
+                  <li>Dynamic Language Switching – Arabic, Urdu, English</li>
+                  <li>Localized Citations – Region-specific laws & rulings</li>
                 </ul>
               </div>
               <div className="feature-image">
@@ -99,26 +100,27 @@ const Features = () => {
                   <h2>
                     <span className="counter">200</span>+
                   </h2>
-                  <p>AI Agency & Technology Project Complate</p>
+                  <p>Legal AI Projects Deployed Across Regions</p>
                 </div>
                 <div className="feature-counter-image">
-                  <img
+                  {/* <img
                     src="images/feature-counter-img.png"
                     alt="Feature Counter"
-                  />
+                  /> */}
                 </div>
               </div>
               <div
                 className="feature-item wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                <h3>Transforming Industries Through Applied AI</h3>
+                <h3>From Startup to Enterprise</h3>
                 <ul>
-                  <li>SmartBot</li>
-                  <li>VisionAI</li>
-                  <li>PredictPro</li>
-                  <li>VoiceFlow</li>
-                  <li>MarketMind</li>
+                  <li>Template Reuse</li>
+                  <li>Form-Based Drafting</li>
+                  <li>Clause Suggestions</li>
+                  <li>Case Law Insertion</li>
+                  <li>Team Collaboration</li>
+                  <li>Legal Automation</li>
                 </ul>
               </div>
             </div>
