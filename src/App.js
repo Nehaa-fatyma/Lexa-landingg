@@ -42,25 +42,25 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/index-image" element={<IndexImg/>} />
-        <Route path="/index-video" element={<IndexVideo/>}/>
+        <Route path="/" element={<IndexVideo />} />
+        {/* <Route path="/index-image" element={<IndexImg/>} /> */}
+        {/* <Route path="/index-video" element={<IndexVideo/>}/> */}
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/service-single" element={<ServicesDetails />} />
+        {/* <Route path="/service-single" element={<ServicesDetails />} /> */}
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog-single" element={<BlogSingle />} />
+        {/* <Route path="/blog-single" element={<BlogSingle />} /> */}
         <Route path="/projects" element={<Projects />} />
-        <Route path="/project-single" element={<ProjectSingle />} />
+        {/* <Route path="/project-single" element={<ProjectSingle />} /> */}
         <Route path="/team" element={<Team />} />
-        <Route path="/team-single" element={<TeamSingle />} />
+        {/* <Route path="/team-single" element={<TeamSingle />} /> */}
         <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/image-gallery" element={<ImageGallery />} />
-        <Route path="/video-gallery" element={<VideoGallery />} />
+        {/* <Route path="/image-gallery" element={<ImageGallery />} /> */}
+        {/* <Route path="/video-gallery" element={<VideoGallery />} /> */}
         <Route path="/faqs" element={<FAQs />} />
-        <Route path="/404" element={<NotFound />} />
+        {/* <Route path="/404" element={<NotFound />} /> */}
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </Router>
   );

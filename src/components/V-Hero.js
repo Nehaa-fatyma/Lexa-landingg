@@ -6,11 +6,11 @@ const HeroSection = () => {
       {/* Background Video */}
       <div className="hero-bg-video">
         <video autoPlay muted loop id="myvideo">
-          <source
-            src="https://demo.awaikenthemes.com/assets/videos/nextmind-v2-video.mp4"
+          {/* <source
+            src="Desktop/backgroundtheme"
             type="video/mp4"
-          />
-          Your browser does not support the video tag.
+          /> */}
+           <source src={`${process.env.PUBLIC_URL}/backgroundtheme1.mp4`} type="video/mp4" />
         </video>
       </div>
 
